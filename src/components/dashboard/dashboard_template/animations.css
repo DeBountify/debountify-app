@@ -1,0 +1,28 @@
+.duration-300 {
+  transition-duration: .3s;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+}
+
+.translate-x-0 {
+  transform: translateX(0);
+}
+
+.translate-x-80 {
+  transform: translateX(-20rem);
+}
+
+.class_drawer2 {
+  z-index: 333;
+}
+
+.gradient_34v3e {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
