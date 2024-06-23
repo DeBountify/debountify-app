@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Navbar from "../common/Navbar";
+import Navbar from "@/components/common/Navbar";
 import { persistor, store } from "@/redux/store";
 import { Provider as ReduxProvider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";

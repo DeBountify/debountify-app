@@ -1,4 +1,4 @@
-import Provider from "@/components/Provider/Provider";
+import Provider from "@/Provider/Provider";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 
