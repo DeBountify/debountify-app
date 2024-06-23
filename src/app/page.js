@@ -1,12 +1,16 @@
+import Hero from "@/components/landing_page/Hero";
+import Features from "@/components/landing_page/Features";
 import dynamic from "next/dynamic";
-
-const IconTemplate = dynamic(() => import("@/components/Icons/IconTemplate"));
+import Footer from "@/components/landing_page/Footer";
+const Contact = dynamic(() => import("@/components/landing_page/Contact"));
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-red-400 font-bold">DeBountify Base template</h1>
-      <IconTemplate icon={"arcticons:cyberghost"}/>
+    <main className="min-h-screen container mx-auto">
+      <Hero />
+      <Features />
+      <Contact />
+      <Footer />
     </main>
   );
 }

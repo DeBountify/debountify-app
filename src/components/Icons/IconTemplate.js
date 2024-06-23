@@ -1,14 +1,14 @@
-"use client"
-import React from 'react'
-import { Icon } from '@iconify/react';
+"use client";
+import React from "react";
+import { Icon } from "@iconify/react";
 
 // icons website https://icon-sets.iconify.design/
-const IconTemplate = ({icon}) => {
+const IconTemplate = ({ icon, className }) => {
   return (
     <div>
-        <Icon className='text-5xl text-red-500' icon={icon} />
+      <Icon className={className} icon={icon} />
     </div>
-  )
-}
+  );
+};
 
-export default IconTemplate
+export default IconTemplate;
