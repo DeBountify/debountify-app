@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-const IconTemplate = dynamic(() => import("../Icons/IconTemplate"));
+const IconTemplate = dynamic(() => import("../icons/IconTemplate"));
 import "@/assets/styles/featureBox.css";
 
 const FeaturesBox = ({ className, icon, text, Create }) => {

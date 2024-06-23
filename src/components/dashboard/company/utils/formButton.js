@@ -1,6 +1,6 @@
 "use client";
 
-import IconTemplate from "@/components/Icons/IconTemplate";
+import IconTemplate from "@/components/icons/IconTemplate";
 import GradientButton from "@/components/common/GradientButton";
 import { useFormStatus } from "react-dom";
 
