@@ -1,0 +1,95 @@
+.table-mobile-wrapper {
+    width: 100%;
+    overflow: auto;
+}
+
+.program-show .program-information .collapse .table-mobile-wrapper h4.scope-title, .program-show .program-information .collapse .table-mobile-wrapper .report h1.scope-title, .report .program-show .program-information .collapse .table-mobile-wrapper h1.scope-title {
+    font-size: 16px;
+}
+
+.program-show .program-information .collapse .table-mobile-wrapper h4, .program-show .program-information .collapse .table-mobile-wrapper .report h1, .report .program-show .program-information .collapse .table-mobile-wrapper h1 {
+    color: #fff;
+}
+
+.program-information .table-minimal {
+    margin: 0;
+}
+
+.common-article p, .common-article table {
+    color: #565656;
+}
+
+.table-fluid {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-minimal {
+    table-layout: fixed;
+    background: transparent;
+    border: none;
+    margin: 20px 0;
+}
+
+.table-minimal tbody, .table-minimal thead {
+    border: none;
+    background: transparent;
+}
+
+.program-show .program-information .collapse .table-mobile-wrapper .typo-active {
+    border-color: #768ca0;
+}
+
+.table-minimal thead tr {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.typo-active {
+    color: #31a4b2;
+}
+
+.program-show .program-information .collapse .table-mobile-wrapper .typo-active th {
+    color: #4B6986;
+}
+
+.program-information .content-text .section tr th {
+    padding: 11px 13px 11px 10px;
+}
+
+.program-information .table-minimal .wide-cell {
+    width: 380px;
+}
+
+.program-information .table-minimal th {
+    min-width: auto;
+    padding-left: 10px;
+}
+
+.table-minimal th {
+    height: auto !important;
+    padding: 12px 15px;
+}
+
+article table th {
+    padding-left: 40px;
+    min-width: 200px;
+    text-align: left;
+}
+
+.program-information .content-text .section tr th {
+    padding: 11px 13px 11px 10px;
+}
+
+.program-information .table-minimal th {
+    min-width: auto;
+    padding-left: 10px;
+}
+
+.name-cell {
+    padding: 16px 15px 19px 10px;
+    font-size: 14px;
+    width: 380px;
+
+}
+
+

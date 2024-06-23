@@ -1,0 +1,201 @@
+.payments-section-balance {
+    background-image: url("https://hackenproof.com/assets/img-payment-balance-cd8a102faccbcf7926392c43c5efff0cbe56f6e1bdb117aee752ff047f5a48fd.svg");
+}
+
+.payments-section-balance2 {
+    background-image: url("https://hackenproof.com/assets/img-payment-withdraw-0784150d7f5f437561b4c24ab176f0c861739b0b2b34b5952af6a4e82f7f97c8.svg");
+}
+
+.payments-section {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 150px;
+    background-color: #DDE2F4;
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    margin-right: 10px;
+    padding: 30px;
+}
+
+.dashboard-panel section {
+    padding: 0 40px 40px;
+}
+
+.withdrawn-flex {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.payments-withdrawn {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 2px solid #53EEBF;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 20px;
+    -webkit-box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+}
+
+.payments-withdrawn-title {
+    margin-top: -10px;
+}
+
+.form-dashboard {
+    font-size: 14px;
+}
+
+.panel .form-group, .panel--stats .form-group {
+    margin-bottom: 0;
+}
+
+.desc-payments {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.form-group label, .form-group p {
+    font-weight: 100;
+    line-height: 25px;
+    margin: 0 0 10px;
+}
+
+.dashboard-container .spend, .dashboard-container .statistics, .dashboard-container .table {
+    padding: 0 40px 30px 40px !important;
+}
+
+.spend {
+    color: #303639;
+}
+
+.btn-disabled {
+    background-color: #FAFAFA;
+    border: 1px solid #C9CEDE;
+    color: #C9CEDE;
+    line-height: 1.4;
+    padding: 9px 20px;
+    text-transform: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.earned-payments-block {
+    width: 100%;
+    height: 122px;
+    background: #fff;
+    border: 1px solid #DDE7F0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 20px;
+    -webkit-box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+}
+
+.spend .earned-peyments-block h2, .spend .earned-peyments-block .programs-wrapper h1, .programs-wrapper .spend .earned-peyments-block h1 {
+    margin-bottom: 10px;
+}
+
+.clearfix::after, .statistics-list li::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.earned-spend-items {
+    margin-top: -40px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.earned-spend-items>div {
+    width: 30%;
+}
+
+.stats-reports {
+    position: relative;
+    margin-bottom: 6px;
+    -webkit-box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 11px 28px rgba(0, 0, 0, 0.06);
+    border: 1px solid #DDE7F0;
+    border-radius: 16px;
+    font-size: 18px;
+    color: #222;
+    padding: 18px 19px 20px;
+    margin-right: 19px;
+    width: 20%;
+}
+
+.stats-reports-block {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1280px) {
+    .stats-reports {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 1280px) {
+    .stats-reports {
+        padding-right: 10px;
+    }
+}
+
+.earned-icons-total {
+    background-image: url("https://hackenproof.com/assets/icons/earned-icon-total-b1781308da26e034f2c9d9c6eea24c6947322cf6683d6956a0dda6c331a99a92.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.earned-icons {
+    height: 54px;
+    width: 54px;
+}
+
+.earned-icons-lowest {
+    background-image: url("https://hackenproof.com/assets/icons/earned-icon-lowest-3bca9acd79b3543f1b6eea7941c48ef7e7321f6385489fcf75982a15e4f2b2f6.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.earned-icons-pending {
+    background-image: url("https://hackenproof.com/assets/icons/earned-icon-total-b1781308da26e034f2c9d9c6eea24c6947322cf6683d6956a0dda6c331a99a92.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.earned-icons-average {
+    background-image: url("https://hackenproof.com/assets/icons/earned-icon-average-c1988f3e5376273d5f43f50b2a5aa2ca3bcf04b4399eec86c4f9b80aa0431d7c.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.stats-reports.stats-reports-block.justify-between {
+    background-color: white;
+}
