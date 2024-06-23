@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Debountify
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Debountify is a cutting-edge application that seamlessly integrates UI, blockchain, and backend technologies. Our platform leverages the power of Next.js for a smooth user experience, Solana blockchain for secure and decentralized operations, and efficient backend processing to create a robust, full-stack solution.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- 🎨 Sleek, intuitive user interface built with Next.js and Tailwind CSS
+- 🔗 Secure, decentralized data storage powered by Solana Blockchain
+- 🚀 High-performance backend processing using Next.js and RESTful APIs
+- 🔒 Enhanced security through advanced cryptographic measures
+- 📝 Smart contract development support via Rust and Anchor Framework
+- 🔄 Seamless integration between UI, Blockchain, and Backend modules
+
+## Tech Stack
+
+### Frontend
+- Next.js v14
+- Tailwind CSS
+- shadcn/ui
+- JavaScript
+
+### Blockchain
+- Solana Blockchain
+- Rust
+- Anchor Framework
+
+### Backend
+- Next.js v14
+- RESTful API
+- Solana/Web3 Library
+
+## Prerequisites
+
+Ensure you have the following installed:
+- Node.js and npm
+- Rust and Anchor
+- Basic understanding of blockchain technology
+
+## Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/DeBountify/debountify-app.git
+   ```
+   
+   ```sh
+   cd debountify-app
+   ```
+
+2. Navigate to the project directory
+
+3. Install dependencies
+   ```sh
+   npm install 
+   ```
+
+## Configuration
+1. Create a .env or add in 'next.config.js' file in the root directory and add necessary environment variables.
+```dosini
+    SOLANA_URL=https://api.devnet.solana.com
+    DEPLOYED_PROGRAM_ADDRESS=solana_deployed_address
+    PINATA_JWT=pinata_jwt
+    PINATA_VIEW_API=https://ipfs.io/ipfs/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Configure your Solana wallet for testing on devnet.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Usage
+1. Start the development server
+2. Open your browser and navigate to http://localhost:3000
+3. Connect your Solana wallet to interact with the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Development
+- The pages directory contains the main application routes.
+- The components directory houses reusable React components.
+- Solana program code is located in the programs directory.
+- Use the Anchor Framework for developing and testing Solana programs.
 
-## Learn More
+## Contributing
+We welcome contributions to the DeBountify project. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the GPL 3.0 License - see the [LICENSE](LICENSE) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+- [Next.js](https://nextjs.org/)
+- [Solana](https://solana.com/)
+- [Anchor Framework](https://project-serum.github.io/anchor/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
