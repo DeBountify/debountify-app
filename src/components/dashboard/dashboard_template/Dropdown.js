@@ -4,7 +4,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import IconTemplate from "@/components/Icons/IconTemplate";
+import IconTemplate from "@/components/icons/IconTemplate";
 import { Badge } from "@/components/ui/badge";
 
 export function DropdownMenuDemo() {

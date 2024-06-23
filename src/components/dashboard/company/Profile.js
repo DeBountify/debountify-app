@@ -1,6 +1,6 @@
 "use client";
 import { pinFileToIPFS } from "@/actions/pinata";
-import IconTemplate from "@/components/Icons/IconTemplate";
+import IconTemplate from "@/components/icons/IconTemplate";
 import { showAlert } from "@/components/common/Alert";
 import GradientButton from "@/components/common/GradientButton";
 import InputBox from "@/components/common/InputBox";

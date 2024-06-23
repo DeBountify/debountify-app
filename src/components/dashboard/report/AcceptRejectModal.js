@@ -1,4 +1,4 @@
-import IconTemplate from "@/components/Icons/IconTemplate";
+import IconTemplate from "@/components/icons/IconTemplate";
 import InputBox from "@/components/common/InputBox";
 import {
   AlertDialog,

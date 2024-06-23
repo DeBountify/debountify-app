@@ -1,7 +1,7 @@
 import React from "react";
 import GradientButton from "../common/GradientButton";
 import dynamic from "next/dynamic";
-const IconTemplate = dynamic(() => import("@/components/Icons/IconTemplate"));
+const IconTemplate = dynamic(() => import("@/components/icons/IconTemplate"));
 
 const LoginInput = ({ handleLogin, loading }) => {
   return (

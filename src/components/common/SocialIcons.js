@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import IconTemplate from "../Icons/IconTemplate";
+import IconTemplate from "../icons/IconTemplate";
 
 const SocialIcons = ({url, icon, className}) => {
   return (

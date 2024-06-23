@@ -1,4 +1,4 @@
-import IconTemplate from "@/components/Icons/IconTemplate";
+import IconTemplate from "@/components/icons/IconTemplate";
 import { useEffect, useState } from "react";
 import "./animations.css";
 import Link from "next/link";

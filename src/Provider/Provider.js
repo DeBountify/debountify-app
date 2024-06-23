@@ -5,7 +5,7 @@ import { persistor, store } from "@/redux/store";
 import { Provider as ReduxProvider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { usePathname } from "next/navigation";
-import { Wallet } from "@/Provider/Wallet";
+import { Wallet } from "./Wallet";
 
 const Provider = ({ children }) => {
   const [showNavbar, setShowNavbar] = useState(false);

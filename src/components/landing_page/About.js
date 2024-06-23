@@ -1,5 +1,5 @@
 import React from "react";
-import IconTemplate from "../Icons/IconTemplate";
+import IconTemplate from "../icons/IconTemplate";
 
 const About = () => {
   return (
